@@ -37,7 +37,7 @@ export async function getStaticProps({ params }) {
     props: {
       user: await resp.json(),
     },
-    revalidate: 10,
+    revalidate: 30,
   };
 }
 
