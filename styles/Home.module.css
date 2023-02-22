@@ -5,5 +5,9 @@
 }
 
 .card img {
-  max-height: 200px;
+  /* max-height: 200px; */
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
 }
